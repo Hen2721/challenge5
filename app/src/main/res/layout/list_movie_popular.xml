@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.captain_miao.optroundcardview.OptRoundCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:optRoundCardElevation="0dp"
+    app:optRoundCardBackgroundColor="@color/black"
+    app:optRoundCardCornerRadius="50dp"
+    android:layout_margin="15dp"
+    android:focusable="true"
+    android:clickable="true">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/cv_movie_poster"
+        app:riv_corner_radius="25dp"
+        android:layout_width="220dp"
+        android:layout_height="320dp"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop" />
+
+</com.github.captain_miao.optroundcardview.OptRoundCardView>

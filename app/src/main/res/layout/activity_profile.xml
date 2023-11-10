@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18192B"
+    tools:context=".UI.SignInUp.ProfileActivity">
+
+    <ImageView
+        android:id="@+id/iv_BackProfile"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/nunitoregular"
+        android:text="Logout"
+        android:textColor="@color/white"
+        android:layout_marginEnd="30dp"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_BackProfile"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/iv_BackProfile" />
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        android:id="@+id/riv_ProfileUser"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@color/white"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_BackProfile"
+        app:riv_corner_radius="50dp" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_fullNameProfile"
+        style="@style/EditTextBackground"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/nunitoregular"
+        android:hint="Name"
+        android:paddingLeft="25dp"
+        android:textColor="@color/white"
+        android:textColorHint="#777777"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/riv_ProfileUser" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_jobProfile"
+        style="@style/EditTextBackground"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/nunitoregular"
+        android:textColor="@color/white"
+        android:hint="Job"
+        android:paddingLeft="25dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#777777"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_fullNameProfile" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_emailProfile"
+        style="@style/EditTextBackground"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/nunitoregular"
+        android:textColor="@color/white"
+        android:hint="Email"
+        android:paddingLeft="25dp"
+        android:textColorHint="#777777"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/et_jobProfile" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Update"
+        style="@style/GeneralButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/nunitosemibold"
+        android:text="Update"
+        app:layout_constraintBottom_toTopOf="@+id/btn_Confirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_Confirm"
+        style="@style/GeneralButton"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="40dp"
+        android:text="Confirm"
+        android:fontFamily="@font/nunitosemibold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

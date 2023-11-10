@@ -1,0 +1,38 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable-v24/bg_searchview.xml" value="0.141" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_button_1.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_button_2.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_button_3.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_cardview.xml" value="0.141" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_condition.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_condition_2.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_condition_3.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_details.xml" value="0.141" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_et.xml" value="0.137" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_et_blue.xml" value="0.1515" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/drawable/bg_type.xml" value="0.141" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/activity_movie.xml" value="0.176" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/activity_profile.xml" value="0.176" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/activity_sign_in.xml" value="0.152" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/activity_sign_up.xml" value="0.176" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/activity_splash.xml" value="0.2554347826086957" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/list_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/list_movie_popular.xml" value="0.25" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/movie_details.xml" value="0.2" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/movie_list_item.xml" value="0.2604166666666667" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/movie_popular.xml" value="0.22826086956521738" />
+        <entry key="..\:/Binar Academy x Kampus Merdeka/Chapter 5/Challenge Chapter 5/app/src/main/res/layout/network_state_item.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="jbr-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
